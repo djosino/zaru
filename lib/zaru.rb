@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 class Zaru
-  CHARACTER_FILTER = /[\x00-\x1F\/\\:\*\?\"<>\|]/u
+  CHARACTER_FILTER = /[\x00-\x09\x0B-\x1F\/\\:\*\?\"<>\|]/u
   UNICODE_WHITESPACE = /[[:space:]]+/u
   WINDOWS_RESERVED_NAMES =
     %w{CON PRN AUX NUL COM1 COM2 COM3 COM4 COM5
